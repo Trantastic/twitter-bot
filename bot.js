@@ -1,8 +1,4 @@
-var Twit = require('twit')
+var Twit = require("twit");
+var congif = require("./config");
  
-var T = new Twit({
-  consumer_key:         '...',
-  consumer_secret:      '...',
-  access_token:         '...',
-  access_token_secret:  '...'
-});
+var T = new Twit(config);
