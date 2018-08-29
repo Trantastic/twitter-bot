@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Trantastic/twitter-bot#readme",
   "dependencies": {
+    "readline-sync": "^1.4.9",
     "twit": "^2.2.11"
   }
 }
